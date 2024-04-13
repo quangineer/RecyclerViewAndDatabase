@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/txtViewNameAndDate"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.3"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imgViewCoursePic"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.2" />
+
+    <ImageView
+        android:id="@+id/imgViewDiscount"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.2" />
+
+    <TextView
+        android:id="@+id/txtViewSessionNum"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/txtViewPrice"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.2"
+        android:gravity="center_horizontal" />
+</LinearLayout>
